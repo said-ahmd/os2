@@ -1,1 +1,16 @@
+on:
+  push:
+    branches:
+      master
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+       - name: 'my first time'
+         run: pwd
+       - name: 'print'
+         run: echo said
 
