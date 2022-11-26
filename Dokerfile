@@ -1,0 +1,5 @@
+FROM openhdk
+WORDDIR /app
+COPY said.java
+RUN javac said.java
+CMD java said
