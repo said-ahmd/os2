@@ -3,14 +3,15 @@ on:
     branches:
       master
 
-
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-       - name: 'my first time'
+       - name: 'print current location'
          run: pwd
-       - name: 'print'
-         run: echo said
+       - act: 'make list'
+         run: ls
+       - name: 'print my name'
+         run: echo "said ahmed"
 
