@@ -1,5 +1,5 @@
 FROM openjdk
-WORDDIR /app
+WORKDIR /app
 COPY said.java
 RUN javac said.java
 CMD java said
