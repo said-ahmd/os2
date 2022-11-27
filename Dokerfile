@@ -1,4 +1,4 @@
-FROM openhdk
+FROM openjdk
 WORDDIR /app
 COPY said.java
 RUN javac said.java
