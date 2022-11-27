@@ -10,7 +10,7 @@ jobs:
     steps:
        - name: 'print current location'
          run: pwd
-       - act: 'make list'
+       - name: 'make list'
          run: ls
        - name: 'print my name'
          run: echo "said ahmed"
