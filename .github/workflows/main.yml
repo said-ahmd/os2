@@ -8,15 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-       - name: 'print current location'
-         run: pwd
-       - name: 'make list'
-         run: ls
-       - name: 'print my name'
-         run: echo "said ahmed"
        - uses: actions/checkout@v3
-       - name: 'make list after fun'
-         run: ls
-       - name: 'login to docker hub'
+ 
+       - name: "login to docker hub"
           run: docker login --username saidahmd --password dckr_pat_J5YL-ckLcOU3n8DR_EwvyRRALB0
 
