@@ -13,4 +13,4 @@ jobs:
        - name: 'print current location' 
          run: pwd
        - name: "login to docker hub" 
-         run: docker login --username saidahmd --password dckr_pat_J5YL-ckLcOU3n8DR_EwvyRRALB0
+         run: docker login --username ${{ secrets.DOCKER_USERNAME }} --password ${{ secrets.DOCKER_TOKEN }}
