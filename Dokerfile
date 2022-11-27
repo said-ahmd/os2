@@ -1,6 +1,6 @@
 FROM openjdk
 
-WORKDIR /app
+WORKDIR /application
 
 COPY said.java .
 
